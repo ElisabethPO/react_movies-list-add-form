@@ -45,7 +45,7 @@ export const NewMovie = ({ onAdd }: { onAdd: (movie: Movie) => void }) => {
   const isFormValid =
     newTitle?.trim() &&
     newImgUrl.trim() &&
-    newImdbId.trim() &&
+    newImdbUrl.trim() &&
     newImdbId.trim();
 
   return (
